@@ -288,6 +288,7 @@ ul li a:hover {
     #mainContent {
         padding: 0;
         margin: 0;
+        margin-left: 20px;
         width: 100%;
     }
 
@@ -295,7 +296,7 @@ ul li a:hover {
         padding: 15px;
         margin: 15px;
         margin-top: 0px;
-        width: 320px;
+        width: 350px;
     }
     .content-section p{
         font-size: 0.5rem;
