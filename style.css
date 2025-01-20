@@ -295,7 +295,7 @@ ul li a:hover {
         padding: 15px;
         margin: 15px;
         margin-top: 0px;
-        width: 200px;
+        width: 320px;
     }
     .content-section p{
         font-size: 0.5rem;
@@ -312,22 +312,15 @@ ul li a:hover {
     .btn {
         padding: 8px 16px;
     }
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
 
-    .project-card {
-        width: 170px;
-        padding: 15px;
-    }
-    .project-card img{
-        width: 50px;
-    }
     .project-card a{
         width: 120px;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .pro-h{
-        width: 50px;
     }
     .project-card p{
         margin: 0px;
